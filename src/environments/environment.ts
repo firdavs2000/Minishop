@@ -1,0 +1,4 @@
+export const CONSTANTS = {
+  BOT_TOKEN: '7731456459:AAEJMEHyq1W172Su-stH6yjVpwIwyc5Q9Lo',
+  CHAT_ID: 2030797847,
+} as const;
