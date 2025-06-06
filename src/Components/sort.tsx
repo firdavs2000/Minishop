@@ -27,7 +27,6 @@ const Sort = ({setSort}) => {
         onChange={changeOption}
         className="sort_select"
         placeholder="Sort by..."
-        isClearable
       />
     </div>
   );
