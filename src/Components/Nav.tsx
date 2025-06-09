@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 
 
+
 const Nav: React.FC = () => {
-  const [menuOpen, setMenuOpen] = useState<boolean>(false);
-
-
-  const toggleMenu = () => setMenuOpen(!menuOpen);
-
   return (
     <header className="header">
       <nav className="nav">
@@ -16,7 +12,7 @@ const Nav: React.FC = () => {
           <div className="nav_box">
             <Link to="/" className="nav_logo">Exclusive</Link>
 
-            <ul className="nav_list">
+            <ul className=" icon nav_list">
               <li>
                 <NavLink
                   to="/"
@@ -24,6 +20,7 @@ const Nav: React.FC = () => {
                     isActive ? 'nav_link active' : 'nav_link'
                   }
                 >
+
                   <span>Home</span>
                 </NavLink>
               </li>
@@ -34,6 +31,7 @@ const Nav: React.FC = () => {
                     isActive ? 'nav_link active' : 'nav_link'
                   }
                 >
+
                   <span>Contacts</span>
                 </NavLink>
               </li>
@@ -44,6 +42,7 @@ const Nav: React.FC = () => {
                     isActive ? 'nav_link active' : 'nav_link'
                   }
                 >
+
                   <span>Basket</span>
                 </NavLink>
               </li>
