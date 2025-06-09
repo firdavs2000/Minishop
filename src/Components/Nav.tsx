@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
           <div className="nav_box">
             <Link to="/" className="nav_logo">Exclusive</Link>
 
-            <ul className=" icon nav_list">
+            <ul className="  nav_list">
               <li>
                 <NavLink
                   to="/"

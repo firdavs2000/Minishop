@@ -7,11 +7,16 @@
     .recipt_card_img_wrapper {
       height: 260px;
     }
+     .discount_badge{
+        padding: 4px 8px;
+        font-size: 14px;
+      }
 
     .recipt_card_info {
       .recipt_card_title {
         font-size: 20px;
       }
+
 
       .recipt_card_price,
       .recipt_card_rating {
@@ -31,6 +36,11 @@
     .recipt_card_img_wrapper {
       height: 240px;
     }
+     .discount_badge{
+       
+        padding: 4px 6px;
+        font-size: 12px;
+      }
 
     .recipt_card_info {
       padding: 4px;
@@ -57,6 +67,11 @@
     .recipt_card_img_wrapper {
       height: 240px;
     }
+     .discount_badge{
+       
+        padding: 4px;
+        font-size: 10px;
+      }
 
     .recipt_card_info {
       padding: 4px;
@@ -86,6 +101,10 @@
     .recipt_card_img_wrapper {
       height: 220px;
     }
+     .discount_badge{
+        padding: 4px;
+        font-size: 10px;
+      }
 
     .recipt_card_info {
       padding: 4px;
@@ -106,18 +125,29 @@
 
 @media (max-width: 500px) {
   .recipt_box {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4px;
   }
 
   .recipt_card {
     .recipt_card_img_wrapper {
-      height: 200px;
+      height: 220px;
     }
+    img{
+      height: auto;
+    }
+   .discount_badge{
+    padding: 2px ;
+    font-size: 7px;
+   } 
 
     .recipt_card_info {
       .recipt_card_title {
-        font-size: 15px;
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
 
       .recipt_card_price,
@@ -131,17 +161,21 @@
 @media (max-width: 400px) {
   .recipt_card {
     .recipt_card_img_wrapper {
+      width: auto;
       height: 200px;
     }
+     .discount_badge{
+        font-size: 6px;
+      }
 
     .recipt_card_info {
       .recipt_card_title {
-        font-size: 15px;
+        font-size: 12px;
       }
 
       .recipt_card_price,
       .recipt_card_rating {
-        font-size: 12px;
+        font-size: 10px;
       }
     }
   }
