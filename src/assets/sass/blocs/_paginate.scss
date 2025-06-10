@@ -48,7 +48,7 @@
   }
 }
 
-/* === Responsive media queries === */
+/* === Responsive media queries for pagination === */
 
 @media (max-width: 1200px) {
   .paginate {
@@ -85,8 +85,8 @@
 
 @media (max-width: 900px) {
   .paginate {
-    gap: 8px;
     font-size: 12px;
+    gap: 8px;
 
     .paginate_link {
       min-width: 32px;
@@ -97,8 +97,8 @@
 
 @media (max-width: 800px) {
   .paginate {
-    gap: 8px;
     font-size: 11.5px;
+    gap: 7px;
 
     .paginate_link {
       min-width: 30px;
@@ -109,8 +109,8 @@
 
 @media (max-width: 700px) {
   .paginate {
-    gap: 6px;
     font-size: 11px;
+    gap: 6px;
 
     .paginate_link {
       min-width: 28px;
@@ -121,8 +121,9 @@
 
 @media (max-width: 600px) {
   .paginate {
-    gap: 6px;
     font-size: 10.5px;
+    gap: 6px;
+    padding-bottom: 80px; // mobile_nav uchun joy ajratish
 
     .paginate_link {
       min-width: 26px;
@@ -133,8 +134,8 @@
 
 @media (max-width: 500px) {
   .paginate {
-    gap: 5px;
     font-size: 10px;
+    gap: 5px;
 
     .paginate_link {
       min-width: 24px;
@@ -145,24 +146,12 @@
 
 @media (max-width: 400px) {
   .paginate {
-    gap: 4px;
     font-size: 9.5px;
+    gap: 4px;
 
     .paginate_link {
       min-width: 22px;
       height: 22px;
-    }
-  }
-}
-
-@media (max-width: 300px) {
-  .paginate {
-    gap: 4px;
-    font-size: 9px;
-
-    .paginate_link {
-      min-width: 20px;
-      height: 20px;
     }
   }
 }

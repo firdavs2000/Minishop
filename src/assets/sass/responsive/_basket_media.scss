@@ -1,0 +1,87 @@
+@media (max-width: 1200px) {
+  .basket {
+    padding: 15px;
+  }
+
+  .basket h2 {
+    font-size: 1.8rem;
+  }
+
+  .basket p {
+    font-size: 1rem;
+  }
+
+  .basket_item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .basket_item_img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .basket_item_info h3 {
+    font-size: 1.1rem;
+  }
+
+  .basket_item_info p {
+    font-size: 0.9rem;
+  }
+
+  .basket_item_info button {
+    padding: 5px 12px;
+    text-align: center;
+  }
+
+  .basket_summary h3 {
+    font-size: 1.3rem;
+  }
+
+  .basket_summary button {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .basket {
+    padding: 10px;
+  }
+
+  .basket h2 {
+    font-size: 1.5rem;
+  }
+
+  .basket p {
+    font-size: 0.9rem;
+  }
+
+  .basket_item {
+    padding: 10px;
+  }
+
+  .basket_item_img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .basket_item_info h3 {
+    font-size: 1rem;
+  }
+
+  .basket_item_info p {
+    font-size: 0.8rem;
+  }
+
+  .basket_item_info button {
+    padding: 4px 10px;
+  }
+
+  .basket_summary h3 {
+    font-size: 1.2rem;
+  }
+
+  .basket_summary button {
+    padding: 8px 12px;
+  }
+}

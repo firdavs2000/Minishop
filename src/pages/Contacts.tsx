@@ -2,7 +2,7 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import instagramLogo from '@/assets/images/instagram.svg';
 import telegramLogo from '@/assets/images/telegram.svg';
 import facebookLogo from '@/assets/images/facebook.svg';
-import { CONSTANTS } from "../environments/environment";
+import { CONSTANTS } from "../pages/environments/environment";
 
 interface FormData {
   name: string;
@@ -133,5 +133,6 @@ const Contacts: React.FC = () => {
 };
 
 export default Contacts;
+
 
 

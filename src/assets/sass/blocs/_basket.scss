@@ -25,14 +25,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .basket_item {
     display: flex;
     align-items: center;
     background: #fff;
-    padding: 15px 20px;
+    padding: 15px;
     border-radius: 6px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.3s ease;
@@ -42,11 +42,11 @@
     }
 
     .basket_item_img {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       object-fit: contain;
       border-radius: 6px;
-      margin-right: 20px;
+      margin: 10px;
       background: #f0f0f0;
     }
 
@@ -99,7 +99,7 @@
       color: white;
       font-weight: 700;
       border: none;
-      padding: 12px 30px;
+      padding: 12px 20px;
       border-radius: 6px;
       cursor: pointer;
       margin: 0 10px;
@@ -107,38 +107,6 @@
 
       &:hover {
         background-color: #ff4d4f;
-      }
-    }
-  }
-
-  // Responsiv uchun
-  @media (max-width: 600px) {
-    padding: 15px;
-
-    .basket_item {
-      flex-direction: column;
-      align-items: flex-start;
-
-      .basket_item_img {
-        margin-bottom: 12px;
-        width: 100%;
-        height: auto;
-      }
-
-      .basket_item_info {
-        width: 100%;
-
-        button {
-          width: 100%;
-          text-align: center;
-        }
-      }
-    }
-
-    .basket_summary {
-      button {
-        width: 100%;
-        margin: 10px 0;
       }
     }
   }
